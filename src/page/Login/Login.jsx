@@ -17,7 +17,7 @@ const Login = () => {
       .then((user) => {
         console.log(user);
       })
-      .ther((error) => {
+      .then((error) => {
         console.log(error);
       });
   };
